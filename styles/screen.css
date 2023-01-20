@@ -1,0 +1,92 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    margin: 5vh 25vw;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;  
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.logo h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* Hero Image */
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+/* Two box area */
+.two-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+/* History box */
+.history-box {
+    background-color: #E9EAEC;
+    border-radius: 30px;
+    padding: 30px;
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+/* Example Box */
+.example-box {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+}
+
+.top-only-rounded-box {
+    background-color: #E9EAEC;
+    border-radius: 30px 30px 0 0;
+    padding: 30px;
+}
+
+.code-block {
+    background-color: #424242;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 0 0 30px 30px;
+    margin: 0;
+}
